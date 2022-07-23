@@ -14,7 +14,6 @@ const PORT = process.env.PORT || 8080
 
 app.use(morgan('tiny'));
 
-// mongodb connection
 connectDB();
 
 // parse request to body-parser
